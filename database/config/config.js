@@ -1,10 +1,9 @@
 module.exports = {
   "development": {
-    "username": "node",
-    "password": "Hola123",
+    "username": "root",
+    "password": "ignacio",
     "database": "movies_db",
     "host": "127.0.0.1",
-    "port": "3000",
     "dialect": "mysql"
   },
   "test": {

@@ -41,10 +41,7 @@ module.exports = (sequelize, dataTypes) => {
             as: "genero",
             foreignKey: "genre_id"
         });
-    }
-    )
-
-    Pelicula.associate = ((models) => {
+        
         Pelicula.belongsToMany(models.Actor, {
             as: "actores",
             through: "actor_movie",
